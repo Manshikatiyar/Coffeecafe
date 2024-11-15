@@ -1,0 +1,98 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horizontal Templates</title>
+<style>
+  
+  .template-container {
+    width: calc(16.666% - 20px); 
+    margin: 10px;
+    float: left;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }             
+
+  
+  @media (max-width: 768px) {
+    .template-container {
+      width: calc(33.333% - 20px); 
+    }
+  }
+
+  @media (max-width: 480px) {
+    .template-container {
+      width: calc(50% - 20px); 
+    }
+  }
+
+  @media (max-width: 320px) {
+    .template-container {
+      width: 100%; 
+    }
+  }
+
+  
+  .template-content {
+    padding: 20px;
+  }
+</style>
+</head>
+<body>
+
+  <h1><a href="index.html"></a></h1>
+
+<div class="template-container">
+  <div class="template-content">
+    
+    
+    <p>This is the content of Template 1.</p>
+  </div>
+</div>
+
+<div class="template-container">
+  <div class="template-content">
+    
+    
+    <p>This is the content of Template 2.</p>
+  </div>
+</div>
+
+<div class="template-container">
+  <div class="template-content">
+    
+    
+    <p>This is the content of Template 3.</p>
+  </div>
+</div>
+
+<div class="template-container">
+  <div class="template-content">
+    
+    
+    <p>This is the content of Template 4.</p>
+  </div>
+</div>
+
+<div class="template-container">
+  <div class="template-content">
+    
+    
+    <p>This is the content of Template 5.</p>
+  </div>
+</div>
+
+<div class="template-container">
+  <div class="template-content">
+    
+    
+    <p>This is the content of Template 6.</p>
+  </div>
+</div>
+
+</body>
+</html>

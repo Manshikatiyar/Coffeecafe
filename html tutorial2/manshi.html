@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--This is bootstrap CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--This is Styles-->
+  <style>
+      body
+      {
+            background-image:url("/back2.jpg");
+      }
+      .btn-outline-light
+     {
+             background-color:rgba(255,255,255,0);
+             border-color: white;
+     }
+     .btn-outline-light:hover
+     {
+             background-color: rgba(255,255,255,0.205);
+     }
+  </style>
+</head><body>
+  <div class="container">
+
+
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top ">
+   <a class="navbar-brand" href="#"><img src="/lcof.jpg" class="rounded-circle " width="110" height="110" alt=""></a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon bg-light float-right"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarNavDropdown">
+   <ul class="navbar-nav ml-auto">
+
+     <li class="nav-item btn-dark btn btn-outline-light mb-2 mr-2 style="width:120px;" ">
+       <a class="nav-link text-white" href="mashuka.html">HOME</a>
+     </li>
+
+     <li class="nav-item btn-dark btn btn-outline-light  mb-2 mr-2 style="width:120px;" ">
+       <a class="nav-link text-white" href="mishika2.html">BOOKING</a>
+     </li>
+
+     <li class="nav-item btn-dark btn btn-outline-light mb-2 mr-2 style="width:120px;" ">
+       <a class="nav-link text-white" href="shubhi.html">REVIEWS</a>
+     </li>
+
+     <li class="nav-item btn-dark btn btn-outline-light mb-2 mr-2 style="width:120px;" ">
+       <a class="nav-link text-white" href="mshika.html">LOCATION</a>
+     </li>
+
+         <li class="nav-item dropdown btn-dark btn btn-outline-light mb-2 mr-2 style="width:120px;"">
+       <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         CUISINE CARD
+       </a>
+       <div class="dropdown-menu mb-2" aria-labelledby="navbarDropdownMenuLink">
+         <a class="dropdown-item" href="nishu.html"> Coffees</a>
+         <a class="dropdown-item" href="manshi.html">Snacks AND Dessert</a>
+         <a class="dropdown-item" href="mashuka.html">Order Now</a>
+       </div>
+     </li>
+     
+     <li class="nav-item btn-dark btn btn-outline-light mb-2 mr-2 style="width:120px;" ">
+       <a class="nav-link text-white" href="shreya.html">CONTACT</a>
+     </li>
+    
+   </ul>
+ </div>
+</nav>
+
+  </div>
+
+
+   <!--This is Bootstrap JS-->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+
+  
+
+</html>
+
+ 
+      
+           
+       
+
+     
+
+
+  
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horizontal Templates
+</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  
+  .template-container {
+    width: calc(20.666% - 20px); 
+    margin: 20px;
+    float: left;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+
+  }             
+
+  
+  @media (max-width: 768px) {
+    .template-container {
+      width: calc(33.333% - 20px); 
+    }
+  }
+
+  @media (max-width: 480px) {
+    .template-container {
+      width: calc(50% - 20px); 
+    }
+  }
+
+  @media (max-width: 420px) {
+    .template-container {
+      width: 100%; 
+    }
+  }
+
+  
+  .template-content {
+    padding: 20px;
+    width:100%;
+    margin-inline-start: auto;
+  }
+</style>
+</head>
+<body>
+
+  <h1><a href="index.html"></a></h1>
+
+
+<h1 >SNACKS AND DESERT</h1>
+<div class="template-container">
+  <div class="template-content">
+    <h2> Waffle</h2>
+    <img src="/waffle.jpg"width=100%> 
+    <a href="https://en.wikipedia.org/wiki/Waffle"> Waffles </a>
+    
+  </div>
+</div>
+
+<div class="template-container">
+  <div class="template-content">
+    <h2> Muffins</h2>
+    <img src="/muffins.jpg"width=100%>
+    <a href="https://en.wikipedia.org/wiki/Muffin"> Muffins </a>
+    
+  </div>
+</div>
+
+<div class="template-container">
+  <div class="template-content">
+    <h2> Sandwich </h2>
+    <img src="/sandwich.jpg"width=100%>
+    <a href="https://en.wikipedia.org/wiki/Sandwich"> Sandwich </a>
+    
+  </div>
+</div>
+
+<div class="template-container">
+  <div class="template-content">
+    <h2> Croissane </h2>
+    
+    <img src="/croissane.jpg"width=100%>
+    <a href="https://en.wikipedia.org/wiki/Croissant"> Croissane </a>
+    
+  </div>
+</div>
+
+<div class="template-container">
+  <div class="template-content">
+    <h2> Oreo </h2>
+   <img src="/oreo.jpg"width=100%>
+   <a href="https://en.wikipedia.org/wiki/Oreo"> Oreo desert </a>
+    
+  </div>
+</div>
+
+
+<div class="template-container">
+  <div class="template-content">
+    <h2> Apple Pie </h2>
+    <img src="/applepie.jpg"width=100%>
+    <a href="https://en.wikipedia.org/wiki/Apple_pie"> Apple pie</a>
+
+  </div>
+</div>
+
+
+<div class="template-container">
+    <div class="template-content">
+<h2> Brownie </h2>
+      <img src="/brownie.jpg
+      "width=100%>
+  <a href=" https://en.wikipedia.org/wiki/Chocolate_brownie"> Brownie</a>
+    </div>
+</div>
+
+<div class="template-container">
+    <div class="template-content">
+<h2> Cookies </h2>
+
+      <img src="/cookies.jpg"width=100%>
+<a href="https://en.wikipedia.org/wiki/Cookie"> Cookies </a>
+    </div>
+</div>
+
+</body>
+</html>
